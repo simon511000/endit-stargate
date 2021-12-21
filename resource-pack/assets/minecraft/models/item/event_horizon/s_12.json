@@ -1,0 +1,79 @@
+{
+	"__comment": "Designed by cauchemart",
+	"textures": {
+		"particle": "blocks/e_particle",
+		"texture": "add_texture/horizon/eh_corrected_2",
+		"puddle": "add_texture/horizon/eh_opening_7"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "PlaneZ53",
+			"from": [ -7, -9, 7.5 ],
+			"to": [ 23, 21, 7.501 ],
+			"faces": {
+				"north": { "uv": [ 0, 0, 16, 16 ], "texture": "#puddle" },
+				"south": { "uv": [ 0, 0, 16, 16 ], "texture": "#puddle" }
+			}
+		},
+		{
+			"__comment": "PlaneY4",
+			"from": [ 1, -1, 7.5 ],
+			"to": [ 15, -0.999, 20.5 ],
+			"rotation": { "origin": [ 1, -1, 7.5 ], "axis": "x", "angle": -22.5 },
+			"faces": {
+				"down": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture", "rotation": 270 },
+				"up": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture", "rotation": 90 }
+			}
+		},
+		{
+			"__comment": "PlaneY6",
+			"from": [ 1, 13, 7.5 ],
+			"to": [ 15, 13.001, 20.5 ],
+			"rotation": { "origin": [ 1, 13, 7.5 ], "axis": "x", "angle": 22.5 },
+			"faces": {
+				"down": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture", "rotation": 270 },
+				"up": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture", "rotation": 90 }
+			}
+		},
+		{
+			"__comment": "PlaneX8",
+			"from": [ 1, -1, 7.5 ],
+			"to": [ 1.001, 13, 20.5 ],
+			"rotation": { "origin": [ 1, -1, 7.5 ], "axis": "y", "angle": 22.5 },
+			"faces": {
+				"west": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" },
+				"east": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture", "rotation": 180 }
+			}
+		},
+		{
+			"__comment": "PlaneX8",
+			"from": [ 15, -1, 7.5 ],
+			"to": [ 15.001, 13, 20.5 ],
+			"rotation": { "origin": [ 15, -1, 7.5 ], "axis": "y", "angle": -22.5 },
+			"faces": {
+				"west": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" },
+				"east": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture", "rotation": 180 }
+			}
+		},
+		{
+			"__comment": "Box8",
+			"from": [ 5.5, 3.5, 18 ],
+			"to": [ 10.5, 8.5, 24 ],
+			"faces": {
+				"down": { "uv": [ 5, 0.5, 7.5, 3 ], "texture": "#puddle", "rotation": 270 },
+				"up": { "uv": [ 5, 0.5, 7.5, 3 ], "texture": "#puddle", "rotation": 90 },
+				"north": { "uv": [ 5, 0.5, 7.5, 3 ], "texture": "#puddle" },
+				"south": { "uv": [ 5, 0.5, 7.5, 3 ], "texture": "#puddle" },
+				"west": { "uv": [ 5, 0.5, 7.5, 3 ], "texture": "#puddle" },
+				"east": { "uv": [ 5, 0.5, 7.5, 3 ], "texture": "#puddle" }
+			}
+		}
+	],
+	"display": {
+		"head": {
+			"rotation":  [ 90, 180, 0 ],
+			"translation":  [ 0, 0, 8 ],
+			"scale":  [ 4, 4, 4 ]
+		}
+	}
+}

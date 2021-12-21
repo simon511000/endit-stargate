@@ -1,0 +1,75 @@
+{
+	"__comment": "Designed by cauchemart",
+	"textures": {
+		"particle": "blocks/e_particle",
+		"texture": "add_texture/horizon/eh_corrected_2",
+		"puddle": "add_texture/horizon/eh_opening_7"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "PlaneZ53",
+			"from": [ -7, -9, 7.5 ],
+			"to": [ 23, 21, 7.501 ],
+			"faces": {
+				"north": { "uv": [ 0, 0, 16, 16 ], "texture": "#puddle" },
+				"south": { "uv": [ 0, 0, 16, 16 ], "texture": "#puddle" }
+			}
+		},
+		{
+			"__comment": "PlaneY4",
+			"from": [ 2, 0, 7.5 ],
+			"to": [ 14, 0.001, 18.5 ],
+			"rotation": { "origin": [ 2, 0, 7.5 ], "axis": "x", "angle": -22.5 },
+			"faces": {
+				"down": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture", "rotation": 270 },
+				"up": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture", "rotation": 90 }
+			}
+		},
+		{
+			"__comment": "PlaneY6",
+			"from": [ 2, 12, 7.5 ],
+			"to": [ 14, 12.001, 18.5 ],
+			"rotation": { "origin": [ 2, 12, 7.5 ], "axis": "x", "angle": 22.5 },
+			"faces": {
+				"down": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture", "rotation": 270 },
+				"up": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture", "rotation": 90 }
+			}
+		},
+		{
+			"__comment": "PlaneX8",
+			"from": [ 2, 0, 7.5 ],
+			"to": [ 2.001, 12, 18.5 ],
+			"rotation": { "origin": [ 2, 0, 7.5 ], "axis": "y", "angle": 22.5 },
+			"faces": {
+				"west": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" },
+				"east": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture", "rotation": 180 }
+			}
+		},
+		{
+			"__comment": "PlaneX8",
+			"from": [ 14, 0, 7.5 ],
+			"to": [ 14.001, 12, 18.5 ],
+			"rotation": { "origin": [ 14, 0, 7.5 ], "axis": "y", "angle": -22.5 },
+			"faces": {
+				"west": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" },
+				"east": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture", "rotation": 180 }
+			}
+		},
+		{
+			"__comment": "PlaneZ11",
+			"from": [ 6, 4, 17.5 ],
+			"to": [ 10, 8, 17.501 ],
+			"faces": {
+				"north": { "uv": [ 6, 8, 10, 12 ], "texture": "#texture" },
+				"south": { "uv": [ 6, 8, 10, 12 ], "texture": "#texture" }
+			}
+		}
+	],
+	"display": {
+		"head": {
+			"rotation":  [ 90, 180, 0 ],
+			"translation":  [ 0, 0, 8 ],
+			"scale":  [ 4, 4, 4 ]
+		}
+	}
+}

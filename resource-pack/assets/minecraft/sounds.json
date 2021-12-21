@@ -1,0 +1,42 @@
+{
+	"stargates.exiting_gate": {
+		"sounds": [
+			"stargates/exiting_gate"
+		]
+	},
+        "stargates.milky_way_cheveron_lock": {
+		"sounds": [
+			"stargates/milky_way_cheveron_lock"
+		]
+	},"stargates.milky_way_ring_spin": {
+		"sounds": [
+			"stargates/milky_way_ring_spin"
+		]
+	},
+        "stargates.milky_way_deactivation": {
+		"sounds": [
+			"stargates/milky_way_deactivation"
+		]
+	},
+        "stargates.milky_way_inbound_cheveron": {
+		"sounds": [
+			"stargates/milky_way_inbound_cheveron"
+		]
+	},
+        "stargates.milky_way_iris": {
+		"sounds": [
+			"stargates/milky_way_iris"
+		]
+	},
+        "stargates.stargate_event_horizon": {
+		"sounds": [
+			"stargates/stargate_event_horizon"
+		]
+	},
+        "rings.rings": {
+		"sounds": [
+			"rings/rings"
+		]
+	}
+
+}
